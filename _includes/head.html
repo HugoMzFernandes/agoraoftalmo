@@ -1,0 +1,32 @@
+<head>
+
+    <meta charset="utf-8" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="{%- if page.description -%} {{ page.description }} {% else %} {{ site.description }} {%- endif -%}" />
+    <meta name="theme-color" content="#0B2B41">
+    <!-- open graph -->
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{%- if page.title -%} {{ page.title }} {% else %} {{ site.title }} {%- endif -%}" />
+    <meta property="og:description" content="{%- if page.description -%} {{ page.description }} {% else %} {{ site.description }} {%- endif -%}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
+    <meta property="og:site_name" content="Biologix" />
+    <meta property="og:locale" content="pt_BR" />
+    <!-- favicon -->
+    <link rel="stylesheet" href="../assets/vendor/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../assets/main.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" media="none" onload="if(media!='all')media='all'">
+    <noscript><link rel="stylesheet" href="../assets/main.css"></noscript>
+    <noscript><link rel="stylesheet" href="../assets/vendor/bootstrap-reboot.min.css"></noscript>
+    <noscript><link rel="stylesheet" href="../assets/vendor/bootstrap-grid.min.css"></noscript>
+    <script src="../assets/vendor/jquery.min.js"></script>
+    
+    <title>{%- if page.title -%} {{ page.title }} {% else %} {{ site.title }} {%- endif -%}</title>
+  
+    <!-- Google Tag Manager -->
+  
+    <!-- End Google Tag Manager -->
+  
+  </head>

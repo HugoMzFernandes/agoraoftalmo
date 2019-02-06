@@ -1,0 +1,67 @@
+<header id="header" class="">
+    <div class="desktop">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 d-lg-block d-md-none">
+                    <h1 class="logo">
+                        <a href="/">Agora Oftamologia</a>
+                    </h1>
+                </div>
+                <div class="col-6 col-lg-6">
+                    <nav class="nav-inline main-menu -left">
+                        <ul>
+                            {% if page.url == "/" %}
+                            <li><a class="-active" href="/">Home</a></li>
+                            {% else %}
+                            <li><a href="/">Home</a></li>
+                            {% endif %}
+
+                            {% if page.url == "/quem-somos/" %}
+                            <li><a class="-active" href="/quem-somos">Quem somos</a></li>
+                            {% else %}
+                            <li><a href="/quem-somos">Quem somos</a></li>
+                            {% endif %}
+
+                            {% if page.url == "/servicos/" %}
+                            <li><a class="-active" href="/servicos">Servicos</a></li>
+                            {% else %}
+                            <li><a href="/servicos">Servicos</a></li>
+                            {% endif %}
+
+                            {% if page.url == "/para-medicos/" %}
+                            <li><a class="-active" href="/para-medicos">Para medicos</a></li>
+                            {% else %}
+                            <li><a href="/para-medicos">Para medicos</a></li>
+                            {% endif %}
+
+                            {% if page.url == "/contato/" %}
+                            <li><a class="-active" href="/contato">Contato</a></li>
+                            {% else %}
+                            <li><a href="/contato">Contato</a></li>
+                            {% endif %}
+                            <!-- <li><a href="">Notícias</a></li> -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile">
+        <button type="button" class="custom-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav class="mobile-menu">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/quem-somos">Quem somos</a></li>
+                <li><a href="/servicos">Servicos</a></li>
+                <li><a href="/para-medicos">Para medicos</a></li>
+                <li><a href="/contato">COntato</a></li>
+            </ul>
+        </nav>
+        <div class="overlay-mobile-menu"></div>
+        <h1 class="logo">
+            <a href="/">Agora Oftamologia</a>
+        </h1>
+    </div>
+</header>

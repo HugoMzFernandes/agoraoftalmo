@@ -1,0 +1,20 @@
+#form {
+    margin-top: 40px;
+    h2 {
+        font-family: $font-primary;
+        color: $primary;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 26px;
+        font-weight: 400;
+    }
+    textarea {
+        color: $primary;
+    }
+    input {
+        color: $primary;
+        &::placeholder { color: $primary; }
+    }
+    label { color: $primary; }
+}

@@ -1,0 +1,47 @@
+#card-service {
+    margin-top: 40px;
+    h2 {
+        font-family: $font-primary;
+        color: $primary;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 26px;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-family: $font-primary;
+        color: $secondary;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    a {
+        text-align: right;
+        color: #427db5;
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: underline;
+        margin-top: 20px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    p {
+        text-align: center;
+        font-family: $font-primary;
+        color: #787c7b;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    img {
+        margin: 0 auto;
+        display: block;
+    }
+}

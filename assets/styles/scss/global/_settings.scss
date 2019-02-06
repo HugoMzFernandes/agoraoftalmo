@@ -1,0 +1,25 @@
+$primary: #3676b1;
+$secondary: #11877a;
+$tertiary: #787c7b;
+
+$transition: .2s all ease;
+$zIndexHeader: 999;
+
+$font-primary: 'Arial', sans-serif;
+$font-secondary: 'Work Sans', sans-serif;
+
+%reset-input {
+  appearance: none;
+  border-radius: 0;
+  border: 0;
+  outline: none;
+  background: none;
+}
+
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}  
+}
